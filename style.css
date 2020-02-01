@@ -1,0 +1,38 @@
+body {
+    background: #323975;
+    overflow: hidden;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 40px 0;
+    height: 100%;
+}
+
+.fa-snowflake {
+    color: #ffffff;
+    position: absolute;
+    animation: 20s forwards fall linear;
+    top: -20px;
+}
+
+@keyframes fall {
+    to{
+        /*Falling speed*/
+        transform: translateY(105vh);
+    }
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
