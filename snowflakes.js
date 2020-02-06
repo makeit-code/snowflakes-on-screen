@@ -2,8 +2,7 @@ setInterval(createSnowFlake, 100);
 
 function createSnowFlake () {
     const snow_flake = document.createElement('i');
-    snow_flake.classList.add('fas');
-    snow_flake.classList.add('fa-snowflake');
+    snow_flake.classList.add('icon-snowflake-o');
     snow_flake.style.left = Math.random() * window.innerWidth + 'px';
     snow_flake.style.animationDuration = Math.random() * 6 + 5 + 's';
     snow_flake.style.opacity = Math.random();
